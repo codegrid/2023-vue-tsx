@@ -1,0 +1,9 @@
+.CheckboxItem {
+  display: flex;
+  font-size: 20px;
+  gap: 5px;
+}
+.CheckboxItem label:hover {
+  cursor: pointer;
+  color: #0055aa;
+}
