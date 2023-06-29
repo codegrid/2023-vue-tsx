@@ -1,0 +1,22 @@
+fieldset {
+  margin: 10px 0;
+  padding: 10px 30px;
+  border: solid 1px #aaa;
+}
+legend {
+  padding: 0 20px;
+  color: darkgray;
+}
+label {
+  margin-right: 10px;
+  font-size: 1.5em;
+  color: darkgray;
+}
+label:has(> input:checked) {
+  color: black;
+}
+input {
+  padding: 10px;
+  font-size: 1.5em;
+  text-align: center;
+}
